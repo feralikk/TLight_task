@@ -10,7 +10,7 @@
 <body>
     <div class="container-fluid my-2">
         <form method="POST"> {% csrf_token %}
-            <input type="search" name="search_string" class="search" placeholder = "Введите поисковой запрос">
+            <input type="search" name="search_string" class="search" placeholder = "Введите поисковой запрос" size="40%">
             <input type="submit" name="submit" class="submit" value="Поиск">
         </form>
         <table class="table">
